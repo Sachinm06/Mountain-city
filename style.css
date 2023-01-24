@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.top-navbar {
+    width: 100%;
+    height: 7vh;
+    background: rgba(0, 0, 0, 0.273);
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+
+.top-icons {
+    margin-left: 45px;
+}
+
+.top-icons i {
+    font-size: 25px;
+    color: rgba(37, 37, 172, 0.855);
+    margin-left: 10px;
+}
+
+.other-links {
+    margin-right: 33px;
+}
+
+.other-links i {
+    color: navy;
+    font-size: 20px;
+    margin-left: 10px;
+}
+
+#btn-login {
+    width: 100px;
+    border: 2px solid navy;
+    color: navy;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+
+}
+
+#btn-login a {
+    text-decoration: none;
+    color: navy;
+    transition: 0.5s ease;
+
+}
+
+#btn-login a:hover {
+    background-color: navy;
+    color: white;
+}
+
+#btn-login:hover {
+    background-color: navy;
+    color: white;
+}
+
+#btn-signup {
+    width: 100px;
+    border: 2px solid navy;
+    color: navy;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+
+}
+
+#btn-signup a {
+    text-decoration: none;
+    color: navy;
+    transition: 0.5s ease;
+
+}
+
+#btn-signup a:hover {
+    background-color: navy;
+    color: white;
+}
+
+#btn-signup:hover {
+    background-color: navy;
+    color: white;
+}
+
+@media screen and (max-width:500px) {
+    .top-icons {
+        margin-left: 30px;
+    }
+
+    .top-icons i {
+        font-size: 15px;
+    }
+
+    .other-links i {
+        font-size: 15px;
+    }
+
+    #btn-login {
+        width: 60px;
+        height: 5vh;
+    }
+
+    #btn-signup {
+        width: 70px;
+        height: 5vh;
+    }
+
+    #btn-signup a {
+        font-size: 15px;
+    }
+
+    #btn-login a {
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .top-icons {
+        margin-left: 10px;
+    }
+
+    .top-icons i {
+        font-size: 10px;
+    }
+
+    .other-links i {
+        font-size: 10px;
+    }
+
+    #btn-login {
+        width: 40px;
+        height: 5vh;
+    }
+
+    #btn-signup {
+        width: 50px;
+        height: 5vh;
+    }
+
+    #btn-signup a {
+        font-size: 10px;
+    }
+
+    #btn-login a {
+        font-size: 10px;
+    }
+}
+
+/* home-section */
+
+.home-secton {
+    width: 100%;
+    height: 93vh;
+    background-color: #a9a9a962;
+}
+
+.home-secton a {
+    color: white;
+}
+
+
+#navbar {
+    background-color: navy;
+    font-size: 16px;
+    font-family: 'Roboto Slab', serif;
+}
+
+#navbar .nav-link {
+    color: white;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+
+#navbar .nav-link:hover {
+    color: white;
+    border-radius: 5px;
+}
+
+.dropdown li {
+    color: white;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+.home .img {
+    flex: 1 1 400px;
+}
+
+.home .img img {
+    width: 70%;
+    height: 600px;
+}
+
+.home .content {
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+.content h3{
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color: navy;
+    font-weight: bold;
+}
+.content h3 span{
+    font-size: 40px;
+}
+.content p{
+    margin-left: 70px;
+    color: navy;
+}
+.content #shopnow{
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid navy;
+    font-weight: bold;
+    transition: 0.5s ease;
+
+}
+.content #shopnow:hover{
+    background-color: navy;
+    color: white;
+}
+@media screen and (max-width:800px){
+    .content h3{
+        margin-left: 50px;
+        font-size: 40px;
+    
+    }
+    .content p{
+        margin-left: 50px;
+
+    }
+    .content #shopnow{
+        margin-left: 50px;
+    }
+}
+@media screen and (max-width:550px){
+    .content h3{
+        margin-left: 20px;
+        font-size: 30px;
+        text-align: center;
+    
+    }
+    .content p{
+        margin-left: 20px;
+        font-size: 30px;
+        text-align: center;
+
+    }
+    .content #shopnow{
+        margin-left: 20px;
+        
+    }
+    .content button{
+        align-items: center;
+    }
+}
+@media screen and (max-width:800px){
+    .home-secton{
+        height:150vh;
+    }
+}
+@media screen and (max-width:550px){
+    .home-secton{
+        height:190vh;
+    }
+}
