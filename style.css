@@ -189,7 +189,7 @@
 
 .dropdown li {
     color: white;
-    
+
 }
 
 .home {
@@ -200,7 +200,8 @@
     position: relative;
     z-index: 0;
     font-family: 'Roboto Slab', serif;
-
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .home .img {
@@ -211,6 +212,7 @@
     width: 70%;
     height: 600px;
     margin-left: 100px;
+    
 }
 
 .home .content {
@@ -300,15 +302,17 @@
 
 
 #top-cards {
-    margin-top: 30px;
+    margin-top: 50px;
     font-family: 'Roboto Slab', serif;
-   
-
 }
 
 #top-cards .card img {
     height: 50vh;
     opacity: .5;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
+    border-radius: 8px;
+
 }
 
 #top-cards h4 {
@@ -354,10 +358,12 @@
 
 .banner {
     width: 100%;
-    height: 50vh;
+    height: 40vh;
     margin-top: 50px;
-    background-image: url(./images/banner2.jpeg);
+    background-image: url(./images/banner1.jpeg);
     background-size: cover;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    text-align: center;
 }
 
 .banner .content {
@@ -387,12 +393,14 @@
     border: 2px solid white;
     transition: 0.5s ease;
 }
-#bannerbtn button:hover{
+
+#bannerbtn button:hover {
     background-color: navy;
     border: none;
 }
-@media screen and  (max-width:700px){
-    .card-img-overlay{
+
+@media screen and (max-width:700px) {
+    .card-img-overlay {
         align-items: center;
         justify-content: center;
         text-align: center;
