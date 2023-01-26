@@ -22,7 +22,7 @@
 
 .top-icons i {
     font-size: 25px;
-    color: rgba(37, 37, 172, 0.855);
+    color: black;
     margin-left: 10px;
 }
 
@@ -31,7 +31,7 @@
 }
 
 .other-links i {
-    color: navy;
+    color: black;
     font-size: 20px;
     margin-left: 10px;
 }
@@ -170,7 +170,7 @@
 
 
 #navbar {
-    background-color: navy;
+    background-color: rgba(0, 128, 0, 0.769);
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
 }
@@ -189,6 +189,7 @@
 
 .dropdown li {
     color: white;
+    background-color: ;
 }
 
 .home {
@@ -209,81 +210,196 @@
 .home .img img {
     width: 70%;
     height: 600px;
+    margin-left: 100px;
 }
 
 .home .content {
     flex: 1 1 400px;
     margin-top: 30px;
 }
-.content h3{
+
+.content h3 {
     margin-left: 70px;
     font-size: 50px;
     text-shadow: 1px 1px 1px black;
     color: navy;
     font-weight: bold;
 }
-.content h3 span{
+
+.content h3 span {
     font-size: 40px;
 }
-.content p{
+
+.content p {
     margin-left: 70px;
     color: navy;
 }
-.content #shopnow{
+
+.content #shopnow {
     margin-left: 70px;
     width: 200px;
     height: 38px;
-    border: 2px solid navy;
+    border: 2px solid rgba(0, 128, 0, 0.769);
     font-weight: bold;
     transition: 0.5s ease;
 
 }
-.content #shopnow:hover{
-    background-color: navy;
+
+.content #shopnow:hover {
+    background-color: rgba(0, 128, 0, 0.769);
     color: white;
 }
-@media screen and (max-width:800px){
-    .content h3{
+
+@media screen and (max-width:800px) {
+    .content h3 {
         margin-left: 50px;
         font-size: 40px;
-    
+
     }
-    .content p{
+
+    .content p {
         margin-left: 50px;
 
     }
-    .content #shopnow{
+
+    .content #shopnow {
         margin-left: 50px;
     }
+
 }
-@media screen and (max-width:550px){
-    .content h3{
-        margin-left: 20px;
-        font-size: 30px;
-        text-align: center;
-    
-    }
-    .content p{
+
+@media screen and (max-width:550px) {
+    .content h3 {
         margin-left: 20px;
         font-size: 30px;
         text-align: center;
 
     }
-    .content #shopnow{
+
+    .content p {
         margin-left: 20px;
-        
+        font-size: 30px;
+        text-align: center;
+
     }
-    .content button{
-        align-items: center;
+
+    .content #shopnow {
+        margin-left: 100px;
+
+
     }
 }
-@media screen and (max-width:800px){
-    .home-secton{
-        height:150vh;
+
+@media screen and (max-width:414px) {
+    .home .img img {
+        width: 70%;
+        height: 400px;
+        margin-left: 80px;
     }
 }
-@media screen and (max-width:550px){
-    .home-secton{
-        height:190vh;
+
+@media screen and (max-width:800px) {
+    .home-secton {
+        height: 170vh;
     }
+
+
+}
+
+@media screen and (max-width:550px) {
+    .home-secton {
+        height: 170vh;
+    }
+}
+
+#top-cards {
+    margin-top: 30px;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#top-cards .card img {
+    height: 50vh;
+    opacity: .5;
+}
+
+#top-cards h4 {
+    color: navy;
+    font-weight: bold;
+    text-align: center;
+}
+
+#top-cards button {
+    width: 150px;
+    height: 33px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    /* background-color: navy; */
+    background: transparent;
+    color: navy;
+    border: 2px solid navy;
+    transition: 0.5s ease;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+}
+
+#top-cards button:hover {
+    background-color: navy;
+    color: white;
+
+}
+
+#top-cards p {
+    color: na;
+}
+
+.cashbtn {
+    text-align: center;
+    background-color: white;
+    border-radius: 10px;
+}
+
+.orderbtn {
+    text-align: center;
+}
+
+.banner {
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: url(./images/banner2.jpeg);
+    background-size: cover;
+}
+
+.banner .content {
+    text-align: center;
+    padding-top: 100px;
+
+}
+
+.banner .content h1 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+
+.banner .content p {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+
+}
+
+#bannerbtn button {
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: white;
+    border: 2px solid white;
+    transition: 0.5s ease;
+}
+#bannerbtn button:hover{
+    background-color: navy;
+    border: none;
 }
