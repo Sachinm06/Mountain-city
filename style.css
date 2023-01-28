@@ -226,7 +226,7 @@
     margin-left: 70px;
     font-size: 50px;
     text-shadow: 1px 1px 1px black;
-    color: navy;
+    color: #0474BC;
     font-weight: bold;
 }
 
@@ -313,7 +313,7 @@
         /* background: transparent; */
         /* border: 2px solid navy; */
         transition: 0.5s ease;
-        background-color: green;
+        background-color: #0474BC;
 
 
     }
@@ -451,7 +451,7 @@
 
 #product-cards h3 {
     letter-spacing: 3px;
-    font-size: 30px;
+    font-size: 20px;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
     color: #0474BC;
@@ -606,7 +606,7 @@ html {
 
 .arrow {
     position: fixed;
-    background-color: navy;
+    background-color: #0474BC;
     border-radius: 50px;
     height: 50px;
     bottom: 40px;
@@ -669,7 +669,7 @@ html {
 
 #side2 h3 {
     margin-top: 50px;
-    color: navy;
+    color: #0474BC;
     font-weight: bold;
 
 }
@@ -700,7 +700,7 @@ html {
     width: 200px;
     height: 32px;
     color: white;
-    background: navy;
+    background:#0474BC;
     border: none;
     font-weight: bold;
 
