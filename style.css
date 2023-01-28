@@ -38,8 +38,8 @@
 
 #btn-login {
     width: 100px;
-    border: 2px solid navy;
-    color: navy;
+    border: 2px solid #0474BC;
+    color: #0474BC;
     font-weight: bold;
     border-radius: 5px;
     height: 5vh;
@@ -49,25 +49,25 @@
 
 #btn-login a {
     text-decoration: none;
-    color: navy;
+    color: #0474BC;
     transition: 0.5s ease;
 
 }
 
 #btn-login a:hover {
-    background-color: navy;
+    background-color: #0474BC;
     color: white;
 }
 
 #btn-login:hover {
-    background-color: navy;
+    background-color: #0474BC;
     color: white;
 }
 
 #btn-signup {
     width: 100px;
-    border: 2px solid navy;
-    color: navy;
+    border: 2px solid #0474BC;
+    color: #0474BC;
     font-weight: bold;
     border-radius: 5px;
     height: 5vh;
@@ -77,18 +77,18 @@
 
 #btn-signup a {
     text-decoration: none;
-    color: navy;
+    color: #0474BC;
     transition: 0.5s ease;
 
 }
 
 #btn-signup a:hover {
-    background-color: navy;
+    background-color: #0474BC;
     color: white;
 }
 
 #btn-signup:hover {
-    background-color: navy;
+    background-color: #0474BC;
     color: white;
 }
 
@@ -170,7 +170,7 @@
 
 
 #navbar {
-    background-color: rgba(0, 128, 0, 0.769);
+    background-color: #0474BC;
     font-size: 16px;
     font-family: 'Roboto Slab', serif;
 }
@@ -343,7 +343,7 @@
 }
 
 #top-cards h4 {
-    color: navy;
+    color: #0474BC;
     font-weight: bold;
     text-align: center;
 }
@@ -355,8 +355,8 @@
     letter-spacing: 3px;
     /* background-color: navy; */
     background: transparent;
-    color: navy;
-    border: 2px solid navy;
+    color: #0474BC;
+    border: 2px solid #0474BC;
     transition: 0.5s ease;
     justify-content: center;
     align-items: center;
@@ -364,7 +364,7 @@
 }
 
 #top-cards button:hover {
-    background-color: navy;
+    background-color: #0474BC;
     color: white;
 
 }
@@ -423,7 +423,7 @@
 }
 
 #bannerbtn button:hover {
-    background-color: navy;
+    background-color: #0474BC;
     border: none;
 }
 
@@ -454,12 +454,12 @@
     font-size: 30px;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
-    color: navy;
+    color: #0474BC;
 }
 
 #product-cards h5 span {
     float: right;
-    color: navy;
+    color: #0474BC;
 }
 
 #viewmorebtn {
@@ -470,16 +470,16 @@
     margin-top: 30px;
     width: 200px;
     height: 32px;
-    color: navy;
+    color: #0474BC;
     letter-spacing: 5px;
     font-weight: bold;
     background: transparent;
-    border: 2px solid navy;
+    border: 2px solid #0474BC;
     transition: 0.5s ease;
 }
 
 #viewmorebtn:hover {
-    background-color: navy;
+    background-color: #0474BC;
     color: white;
 }
 
@@ -494,21 +494,21 @@
 
 #offer i {
     font-size: 60px;
-    color: navy;
+    color: #0474BC;
 }
 
 #footer {
     padding: 0 0 30px 0;
     color: whitesmoke;
     font-size: 14px;
-    background: navy;
+    background: #0474BC;
     font-family: 'Roboto Slab', serif;
 
 }
 
 #footer .footer-top {
     padding: 60px 0 30px;
-    background: navy;
+    background: #0474BC;
     color: white;
 
 }
@@ -536,42 +536,50 @@
     font-weight: 700;
 
 }
-#footer .footer-top h4{
+
+#footer .footer-top h4 {
     font-size: 16px;
     font-weight: bold;
     position: relative;
     padding-bottom: 2px;
 
 }
-#footer .footer-top .footer-links{
-margin-bottom: 30px;
+
+#footer .footer-top .footer-links {
+    margin-bottom: 30px;
 }
-#footer .footer-top .footer-links ul{
+
+#footer .footer-top .footer-links ul {
     list-style: none;
     padding: 0;
     margin: 0;
 }
-#footer .footer-top .footer-links ul li{
-   padding-right: 10px 0;
-   display: flex;
-   align-items: center;
+
+#footer .footer-top .footer-links ul li {
+    padding-right: 10px 0;
+    display: flex;
+    align-items: center;
 
 }
-#footer .footer-top .footer-links ul li:first-child{
+
+#footer .footer-top .footer-links ul li:first-child {
     padding: 0;
 
 }
-#footer .footer-top .footer-links  li a{
+
+#footer .footer-top .footer-links li a {
     color: white;
     line-height: 2;
 
 }
-#footer .footer-top .footer-links ul li a{
+
+#footer .footer-top .footer-links ul li a {
     color: white;
     line-height: 2;
 
 }
-#footer .footer-top .social-links a{
+
+#footer .footer-top .social-links a {
     font-size: 18px;
     display: inline-block;
     color: white;
@@ -584,21 +592,126 @@ margin-bottom: 30px;
     transition: 0.5s ease;
 
 }
-#footer .copyright{
+
+#footer .copyright {
     text-align: center;
     /* float: left; */
+    color: rgba(255, 255, 255, 0.549);
 
 }
-html{
+
+html {
     scroll-behavior: smooth;
 }
-.arrow{
+
+.arrow {
     position: fixed;
-    background-color:navy;
+    background-color: navy;
     border-radius: 50px;
     height: 50px;
     bottom: 40px;
     right: 50px;
     text-decoration: none;
 
+}
+
+.login {
+    width: 50%;
+    margin: 20px;
+    font-family: 'Roboto Slab', serif;
+
+
+}
+
+#side1 {
+    background-color:#0474BC;
+    height: 76vh;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+#side1 h3 {
+    color: white;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+
+}
+
+#side1 p {
+    color: white;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+
+#btn {
+    align-items: center;
+    text-align: center;
+    border: 2px solid white;
+    border-radius: 10px;
+}
+
+#btn a {
+    text-decoration: none;
+    color: white;
+}
+
+#side2 {
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+}
+
+#side2 h3 {
+    margin-top: 50px;
+    color: navy;
+    font-weight: bold;
+
+}
+
+#side2 .inp {
+    margin-top: 32px;
+}
+
+#side2 input {
+    margin-top: 20px;
+    width: 500px;
+    height: 36px;
+    align-items: center;
+
+}
+#side2 p{
+    margin-top: 20px;
+
+}
+#side2 .icons i{
+    margin-left: 10px;
+}
+
+#login{
+    margin-top: 10px;
+}
+#login button{
+    width: 200px;
+    height: 32px;
+    color: white;
+    background: navy;
+    border: none;
+    font-weight: bold;
+
+}
+@media screen and (max-width:992px){
+    #side2 input{
+        width: 300px;
+    }
+}
+@media screen and (max-width:330px){
+    #side2 input{
+        width: 200px;
+    }
 }
