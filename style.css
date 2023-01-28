@@ -214,7 +214,7 @@
     margin-left: 100px;
     margin-top: 30px;
     margin-bottom: 20px;
-    
+
 }
 
 .home .content {
@@ -268,18 +268,18 @@
 
     .content #shopnow {
         display: flex;
-    justify-content: center;
-    margin: auto;
-    text-decoration: none;
-    margin-top: 30px;
-    width: 200px;
-    height: 30px;
-    color: rgb(245, 245, 248);
-    letter-spacing: 3px;
-    font-weight: bold;
-    background: transparent;
-    /* border: 2px solid navy; */
-    transition: 0.5s ease;
+        justify-content: center;
+        margin: auto;
+        text-decoration: none;
+        margin-top: 30px;
+        width: 200px;
+        height: 30px;
+        color: rgb(245, 245, 248);
+        letter-spacing: 3px;
+        font-weight: bold;
+        background: transparent;
+        /* border: 2px solid navy; */
+        transition: 0.5s ease;
     }
 
 }
@@ -301,19 +301,19 @@
 
     .content #shopnow {
         display: flex;
-    justify-content: center;
-    margin: auto;
-    text-decoration: none;
-    /* margin-top: 30px; */
-    width: 200px;
-    height: 32px;
-    /* color: navy; */
-    letter-spacing: 2px;
-    font-weight: bold;
-    /* background: transparent; */
-    /* border: 2px solid navy; */
-    transition: 0.5s ease;
-    background-color: green;
+        justify-content: center;
+        margin: auto;
+        text-decoration: none;
+        /* margin-top: 30px; */
+        width: 200px;
+        height: 32px;
+        /* color: navy; */
+        letter-spacing: 2px;
+        font-weight: bold;
+        /* background: transparent; */
+        /* border: 2px solid navy; */
+        transition: 0.5s ease;
+        background-color: green;
 
 
     }
@@ -435,28 +435,34 @@
         margin-top: 70px;
     }
 }
-#product-cards{
+
+#product-cards {
     font-family: 'Roboto Slab', serif;
-margin-top: 100px;
+    margin-top: 100px;
 }
-#product-cards .card{
-    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px ;
+
+#product-cards .card {
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-#product-cards img{
+
+#product-cards img {
     border-radius: 10px;
 }
-#product-cards h3{
+
+#product-cards h3 {
     letter-spacing: 3px;
     font-size: 30px;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
     color: navy;
 }
-#product-cards h5 span{
+
+#product-cards h5 span {
     float: right;
     color: navy;
 }
-#viewmorebtn{
+
+#viewmorebtn {
     display: flex;
     justify-content: center;
     margin: auto;
@@ -471,18 +477,128 @@ margin-top: 100px;
     border: 2px solid navy;
     transition: 0.5s ease;
 }
-#viewmorebtn:hover{
+
+#viewmorebtn:hover {
     background-color: navy;
     color: white;
 }
-.star span{
-    color: rgb(255,187,0);
+
+.star span {
+    color: rgb(255, 187, 0);
 }
-#offer{
-margin-top: 50px;
+
+#offer {
+    margin-top: 50px;
 
 }
-#offer i{
+
+#offer i {
     font-size: 60px;
     color: navy;
+}
+
+#footer {
+    padding: 0 0 30px 0;
+    color: whitesmoke;
+    font-size: 14px;
+    background: navy;
+    font-family: 'Roboto Slab', serif;
+
+}
+
+#footer .footer-top {
+    padding: 60px 0 30px;
+    background: navy;
+    color: white;
+
+}
+
+#footer .footer-top .footer-contact h3 {
+    color: white;
+    text-shadow: 1px 1px 1px black;
+}
+
+#footer .footer-top .footer-contact h4 {
+    font-size: 22px;
+    margin: 0 0 30px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+
+}
+
+#footer .footer-top .footer-contact p {
+
+    font-size: 14px;
+    margin: 0;
+    color: white;
+    line-height: 1;
+    font-weight: 700;
+
+}
+#footer .footer-top h4{
+    font-size: 16px;
+    font-weight: bold;
+    position: relative;
+    padding-bottom: 2px;
+
+}
+#footer .footer-top .footer-links{
+margin-bottom: 30px;
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+#footer .footer-top .footer-links ul li{
+   padding-right: 10px 0;
+   display: flex;
+   align-items: center;
+
+}
+#footer .footer-top .footer-links ul li:first-child{
+    padding: 0;
+
+}
+#footer .footer-top .footer-links  li a{
+    color: white;
+    line-height: 2;
+
+}
+#footer .footer-top .footer-links ul li a{
+    color: white;
+    line-height: 2;
+
+}
+#footer .footer-top .social-links a{
+    font-size: 18px;
+    display: inline-block;
+    color: white;
+    line-height: 1;
+    padding-right: 4px;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s ease;
+
+}
+#footer .copyright{
+    text-align: center;
+    /* float: left; */
+
+}
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    background-color:navy;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+
 }
