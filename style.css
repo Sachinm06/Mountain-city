@@ -450,6 +450,7 @@ margin-top: 100px;
     font-size: 30px;
     text-shadow: 1px 1px 1px black;
     font-weight: bold;
+    color: navy;
 }
 #product-cards h5 span{
     float: right;
@@ -476,4 +477,12 @@ margin-top: 100px;
 }
 .star span{
     color: rgb(255,187,0);
+}
+#offer{
+margin-top: 50px;
+
+}
+#offer i{
+    font-size: 60px;
+    color: navy;
 }
