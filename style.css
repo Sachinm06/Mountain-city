@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto+Mono:wght@500&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Righteous&family=Roboto+Mono:wght@500&family=Roboto+Slab&family=Roboto:wght@500&display=swap');
 
 * {
     margin: 0;
@@ -156,6 +156,7 @@
     }
 }
 
+
 /* home-section */
 
 .home-secton {
@@ -168,6 +169,26 @@
     color: white;
 }
 
+.home-secton .logo1 {
+    color: white;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
+    font-size: 30px;
+}
+
+.home-secton .logo1:hover {
+    color: white;
+    letter-spacing: 4px;
+    font-size: 30px;
+    font-family: 'Righteous', cursive;
+
+}
+
+.home-secton .logo1 span {
+    color: red;
+    font-family: 'Righteous', cursive;
+    letter-spacing: 4px;
+    font-size: 30px;}
 
 #navbar {
     background-color: #0474BC;
