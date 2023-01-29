@@ -185,10 +185,23 @@
 }
 
 .home-secton .logo1 span {
-    color: red;
+    color: rgb(226, 102, 102);
     font-family: 'Righteous', cursive;
-    letter-spacing: 4px;
-    font-size: 30px;}
+    letter-spacing: 1px;
+    font-size: 40px;
+    font-weight: bolder;
+
+}
+.change-content::after{
+    content: '';
+    animation:changetext .3s infinite linear;
+    color: red;
+    font-size: 55px;
+
+}
+@keyframes changetext{
+    100%{content:"Upto 50% off";}
+}
 
 #navbar {
     background-color: #0474BC;
@@ -357,11 +370,20 @@
 
 #top-cards .card img {
     height: 50vh;
-    /* opacity: .5; */
+    opacity: .8;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     text-align: center;
     border-radius: 8px;
 
+}
+
+#top-cards .card:hover {
+    transform: translateY(-20px)
+}
+
+#top-cards .card {
+    transition: 0.5s ease;
+    box-shadow: 0 0 5px;
 }
 
 #top-cards h4 {
@@ -376,18 +398,19 @@
     font-weight: bold;
     letter-spacing: 3px;
     background: transparent;
-    color:white;
+    color: white;
     border: 2px solid white;
     transition: 0.5s ease;
     justify-content: center;
     align-items: center;
     border-radius: 5px;
-    margin-top: 16.5rem;
+    background-color: #0474BC;
 }
 
 #top-cards button:hover {
     background-color: #0474BC;
     color: white;
+    border: none;
 
 }
 
@@ -465,6 +488,11 @@
 
 #product-cards .card {
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    transition: 0.5s ease;
+    border: none;
+}
+#product-cards .card:hover{
+    transform: translateY(-10px);
 }
 
 #product-cards img {
@@ -644,6 +672,9 @@ html {
     width: 50%;
     margin: 20px;
     font-family: 'Roboto Slab', serif;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
 
 
 }
@@ -673,18 +704,14 @@ html {
 }
 
 #btn {
-    align-items: center;
-    text-align: center;
     border: 2px solid white;
     border-radius: 10px;
-}
-
-#btn  {
     text-decoration: none;
     color: white;
     width: 400px;
     height: 32px;
 }
+
 
 #side2 {
     background-color: white;
