@@ -679,9 +679,11 @@ html {
     border-radius: 10px;
 }
 
-#btn a {
+#btn  {
     text-decoration: none;
     color: white;
+    width: 400px;
+    height: 32px;
 }
 
 #side2 {
