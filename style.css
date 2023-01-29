@@ -192,15 +192,19 @@
     font-weight: bolder;
 
 }
-.change-content::after{
+
+.change-content::after {
     content: '';
-    animation:changetext .3s infinite linear;
+    animation: changetext .3s infinite linear;
     color: red;
     font-size: 55px;
 
 }
-@keyframes changetext{
-    100%{content:"Upto 50% off";}
+
+@keyframes changetext {
+    100% {
+        content: "Upto 50% off";
+    }
 }
 
 #navbar {
@@ -280,6 +284,7 @@
     border: 2px solid #0474BC;
     font-weight: bold;
     transition: 0.5s ease;
+    
 
 }
 
@@ -307,19 +312,19 @@
         margin: auto;
         text-decoration: none;
         margin-top: 30px;
-        width: 200px;
+        width: 350px;
         height: 30px;
         color: rgb(245, 245, 248);
         letter-spacing: 3px;
         font-weight: bold;
-        background: transparent;
-        /* border: 2px solid navy; */
         transition: 0.5s ease;
+        background-color: #0474BC;
+        border: #0474BC 4px solid;
     }
 
 }
 
-@media screen and (max-width:550px) {
+@media screen and (max-width:600px) {
     .content h3 {
         margin-left: 20px;
         font-size: 30px;
@@ -345,8 +350,7 @@
         /* color: navy; */
         letter-spacing: 2px;
         font-weight: bold;
-        /* background: transparent; */
-        /* border: 2px solid navy; */
+
         transition: 0.5s ease;
         background-color: #0474BC;
 
@@ -491,7 +495,8 @@
     transition: 0.5s ease;
     border: none;
 }
-#product-cards .card:hover{
+
+#product-cards .card:hover {
     transform: translateY(-10px);
 }
 
